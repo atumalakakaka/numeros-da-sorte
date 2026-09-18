@@ -1,0 +1,50 @@
+body {
+		background-color: black;
+		font-family: "kumar one", cursive, sans-serif;
+}
+h1 {
+		color: #a600de;
+		font-size: 26px;
+		text-align: center;
+}
+button {
+		background-color: #00ff95;
+		color: darkgoldenrod;
+		
+		font-family:inherit;
+		font-size: 45px;
+		
+		display: block;
+		transform: translateY(20px);
+		
+		height: 110px;
+		width: 200px;
+		margin: 0 auto;
+		
+		border: 3px solid cyan;
+}
+button:active {
+		color: antiquewhite;
+		border: 3px solid antiquewhite;
+		background-color: #de49be;
+}
+p {
+		font-size: 15px;
+		margin: 80px 10px;
+}
+#pontos {
+		color: #0d00ff;
+}
+#game-over {
+		color: #fc0a0a;
+		
+		display: none;	
+		position: absolute;
+		top: 19%;
+}
+#pontuacao {
+		color: #30c1e6;
+}
+#pontuacao-recorde {
+		color: #ed1195;
+}
